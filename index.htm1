@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Our Telegram Community</title>
+  <meta name="description" content="Join our Telegram community for updates and announcements.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #eef4ff, #f8fbff);
+      color: #172033;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 460px;
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 34px 28px 28px;
+      text-align: center;
+      box-shadow: 0 18px 50px rgba(30, 60, 100, 0.12);
+    }
+
+    .icon {
+      width: 74px;
+      height: 74px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: #229ed9;
+      color: #ffffff;
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: 30px;
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      color: #667085;
+      line-height: 1.6;
+      font-size: 16px;
+      margin-bottom: 22px;
+    }
+
+    .points {
+      text-align: left;
+      margin: 0 0 26px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .points li {
+      margin: 11px 0;
+      color: #344054;
+      font-size: 15px;
+    }
+
+    .points li::before {
+      content: "✓";
+      display: inline-grid;
+      place-items: center;
+      width: 22px;
+      height: 22px;
+      margin-right: 9px;
+      border-radius: 50%;
+      background: #e7f6ff;
+      color: #229ed9;
+      font-weight: 700;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 16px 20px;
+      border-radius: 12px;
+      background: #229ed9;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 700;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .btn:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+
+    .note {
+      margin-top: 18px;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #98a2b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+
+    <div class="icon">✈</div>
+
+    <h1>Join Our Telegram Community</h1>
+
+    <p class="intro">
+      Join our Telegram community to receive updates,
+     
